@@ -22,7 +22,6 @@ public class GradeController {
         } else {
             studentGrades.set(index, grade);
         }
-        studentGrades.add(grade);
         return "redirect:/grades"; // redirects the users by a GET request on /grades to trigger a different
                                    // handler method
     }
